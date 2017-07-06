@@ -1,5 +1,5 @@
 'use strict';
-var uglify = require('uglify-js');
+var uglify = require('uglify-es');
 var compose = require('./composer');
 var GulpUglifyError = require('./lib/gulp-uglify-error');
 var logger = require('./lib/log');
